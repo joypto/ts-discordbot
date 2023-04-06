@@ -1,6 +1,6 @@
 import { Events, Interaction } from 'discord.js';
-import { getCommand } from '../../src/commands';
-import { Event } from '../../src/types/event';
+import { getCommand } from '../commands/mod';
+import { Event } from '../types/event';
 
 export const interactionCommand: Event = {
     name: Events.InteractionCreate,

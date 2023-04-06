@@ -1,4 +1,4 @@
-import { Command } from 'src/types/command';
+import { Command } from '../types/command';
 import { ping } from './ping';
 
 export const commands = [ping];

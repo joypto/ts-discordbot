@@ -1,5 +1,5 @@
 import { Client, IntentsBitField } from 'discord.js';
-import { Bot } from './bot';
+import { Bot } from './bot/bot';
 
 (async () => {
     const client = new Client({
@@ -11,7 +11,6 @@ import { Bot } from './bot';
     });
 
     const bot = new Bot(client);
-
     await bot.registerCommands();
     await bot.registerEvents();
 })();

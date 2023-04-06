@@ -1,7 +1,7 @@
 import { Client, REST, Routes } from 'discord.js';
 import dotenv from 'dotenv';
-import { commands } from './commands';
-import { events } from './events';
+import { commands } from './commands/mod';
+import { events } from './events/mod';
 
 dotenv.config();
 

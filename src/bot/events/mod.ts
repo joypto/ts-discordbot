@@ -1,4 +1,4 @@
 import { interactionCommand } from './interactionCreate';
-import { clientReady } from './ready';
+import { clientReady } from './clientReady';
 
 export const events = [clientReady, interactionCommand];
